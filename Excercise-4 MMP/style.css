@@ -1,0 +1,230 @@
+
+/*
+FONT FAMILY
+*/
+font-family{
+font-family: 'Libre Baskerville', serif;
+font-family: 'Oleo Script', cursive;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: verdana;
+}
+
+.wow {
+    width: 100px;
+  }
+
+.row {
+    display: flex;
+  }
+  
+.column {
+    flex: 50%;
+  }
+  
+.tc{
+      text-align:left;
+      margin-left: 1%;
+  }
+
+/*
+CODE FOR THE HEADER
+*/
+#mbtn{
+    display: none;
+}
+
+header{
+    position: relative;
+    background: white;
+}
+
+#logo{
+    padding: 5px 10px;
+    
+}
+
+#logo a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: normal;
+    font-family: impact;
+    font-size: 46px;
+}
+
+nav{
+    position:absolute;
+    top:10px;
+    right:10px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    vertical-align: top;
+}
+
+nav a{
+    font-size:20px;
+    padding:10px;
+    border:1px solid black;
+    text-decoration: none;
+    text-transform: lowercase;
+    display: block;
+    text-align: center;
+    color:black;
+    width:150px;
+    border-radius:3px;
+}
+
+nav a:hover{
+    background: yellow;
+    box-shadow:0px 0px 10px 1px yellow;;
+}
+
+nav li ul{
+    display: none;
+    padding:0;
+}
+
+nav li:hover{
+    background: #000;
+}
+
+nav li:hover ul, nav li:hover li{
+    display: block;
+}
+
+nav li li:hover a{
+    background: #f00;
+}
+
+/*
+CODE FOR THE BODY ON THE LEFT SIDE 
+*/
+
+.img-box{
+    margin-left: 1%;
+    margin-top:3%;
+    width:50%;
+    height: 550px;
+    display: table;
+    clear: both;
+    background-color:white;  
+  }
+
+.img-box2{
+    margin-left: 1%;
+    width:50%;
+    height: 550px;
+    display: table;
+    clear: both;
+    background-color:white; 
+  }
+
+  img{
+	width:auto;
+	max-width:100%;
+    margin-top:5%;
+}
+
+
+
+
+
+/*
+CODE FOR THE BODY ON THE RIGHT SIDE 
+*/
+
+.left-text1 {
+    width:25%;
+    height: 155px;
+    margin-left: 2%;
+    margin-right:2%;
+    margin-top:3%;
+    display: table;
+    clear: both; 
+  }
+
+  .left-text2 {
+    width:33%;
+    height: 155px;
+    margin-left: 2%;
+    margin-right:2%;
+    margin-top:3%;
+    display: table;
+    clear: both;
+  }
+
+  .button{
+    display: flex;
+    margin-top: 1%;
+    max-width: fit-content;
+    color: brown;
+    
+    
+    
+  }
+
+
+/* ICON */ 
+
+.btn {
+    display: inline-block;
+    background: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: palatino;
+    margin-left: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.btn2 {
+    display: inline-block;
+    background: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: palatino;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.btn3 {
+    display: inline-block;
+    background: lightblue;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: palatino;
+    margin-left: 1%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.btn:hover {
+    color: black;
+    background: white;
+}
+
+.btn2:hover {
+    color: black;
+    background: white;
+}
+
+.btn3:hover {
+    color: black;
+    background: white;
+}
